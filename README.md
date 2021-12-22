@@ -21,7 +21,7 @@
     INFO:     Uvicorn running on http://0.0.0.0:8080 (Press CTRL+C to quit)
     ```
 
-2. Start the server in a seperate terminal:
+2. Test the server in a seperate terminal:
     ```bash
     python test.py
     ```
