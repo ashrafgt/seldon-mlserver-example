@@ -1,0 +1,7 @@
+{
+    "name": "mlserver-example",
+    "implementation": "model.ExampleModel",
+    "parameters": {
+        "uri": "./model.json"
+    }
+}
