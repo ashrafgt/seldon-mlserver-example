@@ -24,7 +24,7 @@ class ExampleModel(MLModel):
 
     async def predict(self, payload: types.InferenceRequest) -> types.InferenceResponse:
         inputs = self._extract_inputs(payload)["data_points"]
-        predictions = [self.model["a"] * i + self.model["a"] for i in inputs]
+        predictions = [self.model["a"] * i + self.model["b"] for i in inputs]
 
         return types.InferenceResponse(
             id=payload.id,
