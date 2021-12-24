@@ -32,7 +32,7 @@ class ExampleModel(MLModel):
             model_version=self.version,
             outputs=[
                 types.ResponseOutput(
-                    name="image_tags",
+                    name="points",
                     datatype="int",
                     data=predictions,
                     shape=[len(predictions)],
